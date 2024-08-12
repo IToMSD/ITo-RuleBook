@@ -1,0 +1,52 @@
+#------------------------------------------------------------
+#|                                                          |
+#|      _  _______        __     __    _____   ____         |
+#|     | ||___ ___|      |  \   /  |  / ____| |  _ \        |
+#|     | |   | |   ___   | |\\ //| | | (___   | | \ \       |
+#|     | |   | |  / _ \  | | \_/ | |  \___ \  | |  ) )      |
+#|     | |   | | | (_) | | |     | |  ____) | | |_/ /       |
+#|     |_|   |_|  \___/  |_|     |_| |_____/  |____/        |
+#|                                                          |
+#|                                                          |
+#------------------------------------------------------------
+#|                 +==================+                     |
+#|                 |     RuleBook     |                     |
+#|                 |------------------|                     |
+#|                 |        1.0       |                     |
+#|                 |------------------|                     |
+#|                 |  PolsatGraniePL  |                     |
+#|                 +==================+                     |
+#------------------------------------------------------------
+#
+# Hello, if you need help or have an idea that will improve our plugin,
+#                   then be sure to contact us:
+#
+#  IToMSD Website: https://itomsd.com/
+#  IToMSD Discord: https://dc.itomsd.com/
+#  IToMSD SpigotMC: https://www.spigotmc.org/resources/authors/itomsd.1983449/
+
+
+
+
+# title = Title of book
+# rules = List of rules
+#  '%nl%' -> New line
+#  '-' -> New page
+
+title: "Server Rules"
+rules:
+  - "Welcome to the server! Before playing, read the rules"
+  - "&7[&61&7] &6Be nice to others. %nl%&7[&62&7] &6Don't cheat. %nl%&7[&63&7] &6Respect other players."
+  - "&7[&64&7] &6Don't grief. %nl%&7[&65&7] &6Don't swear before 10pm."
+accept-text: '[ACCEPT]'
+deny-text: '[DECLINE]'
+
+
+
+
+# Messages
+
+no-permission-message: 'You do not have permission to use this command.'
+accept-message: "Thank you for accepting the rules!"
+deny-message: "You refused to accept the rules."
+plugin-reloaded: "&aPlugin reloaded."
